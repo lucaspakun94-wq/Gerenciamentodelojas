@@ -8,7 +8,7 @@ from reportlab.pdfgen import canvas
 
 # Configurações de aparência
 ctk.set_appearance_mode("System")
-ctk.set_default_color_theme("blue")
+ctk.set_default_color_theme("dark-blue")
 
 class SistemaLanchonete(ctk.CTk):
     def __init__(self):
